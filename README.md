@@ -4,10 +4,11 @@ A simulated TurtleBot 4 (ROS 2 Jazzy, Gazebo Harmonic) **maps a warehouse** with
 it with Nav2 on that map, and **docks to a charging dock using an AprilTag** seen by its camera. Each
 stage is measured against simulator ground truth.
 
-![RTAB-Map map (red) over the warehouse's true layout (grey)](docs/map_overlay.png)
+![Map accuracy: ground truth, the robot's RTAB-Map map, and wall error](docs/map_figure.png)
 
-*Our RTAB-Map occupancy map (red walls, light-blue floor) drawn over the warehouse's ground-truth map (grey).
-The unmapped area at the bottom-left is a closed room the tour could not enter.*
+*Left: the warehouse's true layout. Middle: the map the robot built by driving itself around with RTAB-Map.
+Right: each wall the robot mapped, coloured by its distance to the nearest true wall. 59% are within 5 cm and
+85% within 10 cm. The larger errors (red) are mostly on the far outer wall and one shelf edge.*
 
 ## Results
 
@@ -99,6 +100,7 @@ scripts/exec.sh "python3 scripts/compare_map.py outputs/maps/warehouse_rtabmap.y
 scripts/run_navigation.sh 20 0         # 20 goals on results/maps/warehouse_rtabmap.yaml
 scripts/run_all_docking.sh 20 1        # AprilTag and map-only docking trials on start poses seed 1
 python3 scripts/docking_report.py      # results/docking/table.md
+scripts/exec.sh "python3 scripts/make_map_figure.py"   # docs/map_figure.png (any running container)
 ```
 
 `config/tag_calibration.yaml` holds the bias-corrected calibration (the seed-1 AprilTag row); the first
