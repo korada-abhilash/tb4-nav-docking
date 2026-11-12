@@ -422,11 +422,11 @@ docking_server:
       use_battery_status: false
       use_stall_detection: false
       external_detection_timeout: 1.0
-      external_detection_translation_x: -0.3317
-      external_detection_translation_y: 0.0011
-      external_detection_rotation_roll: 1.4169
-      external_detection_rotation_pitch: -1.5225
-      external_detection_rotation_yaw: 1.7249
+      external_detection_translation_x: -0.333
+      external_detection_translation_y: 0.0554
+      external_detection_rotation_roll: 2.9705
+      external_detection_rotation_pitch: -1.4461
+      external_detection_rotation_yaw: 0.1693
       filter_coef: 0.1
     controller:
       k_phi: 3.0

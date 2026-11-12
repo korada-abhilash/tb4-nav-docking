@@ -1,0 +1,357 @@
+{
+  "label": "apriltag",
+  "seed": 1,
+  "n": 20,
+  "docked": 0,
+  "action_success": 20,
+  "median_abs_err_y_cm": 0.3,
+  "median_abs_err_x_cm": 1.05,
+  "median_abs_err_yaw_deg": 7.62,
+  "tolerance": {
+    "x_m": 0.03,
+    "y_m": 0.02,
+    "yaw_deg": 3.0000000000000004
+  },
+  "trials": [
+    {
+      "i": 0,
+      "start_map": [
+        4.52,
+        2.04,
+        -1.12
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 11.5,
+      "err_x_m": -0.0104,
+      "err_y_m": -0.0008,
+      "err_yaw_deg": 7.46,
+      "docked": false
+    },
+    {
+      "i": 1,
+      "start_map": [
+        2.86,
+        -1.3,
+        -0.24
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.4,
+      "err_x_m": -0.0117,
+      "err_y_m": 0.0032,
+      "err_yaw_deg": 6.62,
+      "docked": false
+    },
+    {
+      "i": 2,
+      "start_map": [
+        2.9,
+        -0.6,
+        0.16
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.5,
+      "err_x_m": -0.0066,
+      "err_y_m": -0.0014,
+      "err_yaw_deg": 9.62,
+      "docked": false
+    },
+    {
+      "i": 3,
+      "start_map": [
+        4.66,
+        0.79,
+        0.12
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 11.7,
+      "err_x_m": -0.0094,
+      "err_y_m": 0.0035,
+      "err_yaw_deg": 7.79,
+      "docked": false
+    },
+    {
+      "i": 4,
+      "start_map": [
+        4.22,
+        1.23,
+        -0.62
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 9.7,
+      "err_x_m": -0.0105,
+      "err_y_m": 0.0027,
+      "err_yaw_deg": 5.2,
+      "docked": false
+    },
+    {
+      "i": 5,
+      "start_map": [
+        4.27,
+        -1.67,
+        -0.3
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.5,
+      "err_x_m": -0.0057,
+      "err_y_m": -0.0109,
+      "err_yaw_deg": 16.35,
+      "docked": false
+    },
+    {
+      "i": 6,
+      "start_map": [
+        4.32,
+        -0.91,
+        0.79
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.1,
+      "err_x_m": -0.0124,
+      "err_y_m": 0.0015,
+      "err_yaw_deg": 6.29,
+      "docked": false
+    },
+    {
+      "i": 7,
+      "start_map": [
+        3.94,
+        -0.06,
+        1.51
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 12.2,
+      "err_x_m": -0.0102,
+      "err_y_m": -0.001,
+      "err_yaw_deg": 8.86,
+      "docked": false
+    },
+    {
+      "i": 8,
+      "start_map": [
+        2.95,
+        1.55,
+        0.13
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 11.9,
+      "err_x_m": -0.0095,
+      "err_y_m": 0.0058,
+      "err_yaw_deg": 7.2,
+      "docked": false
+    },
+    {
+      "i": 9,
+      "start_map": [
+        4.44,
+        -1.34,
+        1.48
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 18.0,
+      "err_x_m": -0.0126,
+      "err_y_m": -0.0023,
+      "err_yaw_deg": 10.01,
+      "docked": false
+    },
+    {
+      "i": 10,
+      "start_map": [
+        4.24,
+        -1.82,
+        0.39
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 11.3,
+      "err_x_m": -0.0131,
+      "err_y_m": -0.0001,
+      "err_yaw_deg": 7.87,
+      "docked": false
+    },
+    {
+      "i": 11,
+      "start_map": [
+        3.03,
+        0.72,
+        1.31
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 16.1,
+      "err_x_m": -0.0119,
+      "err_y_m": 0.0062,
+      "err_yaw_deg": 7.19,
+      "docked": false
+    },
+    {
+      "i": 12,
+      "start_map": [
+        4.42,
+        0.09,
+        -0.13
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 7.3,
+      "err_x_m": -0.0128,
+      "err_y_m": -0.0059,
+      "err_yaw_deg": 11.59,
+      "docked": false
+    },
+    {
+      "i": 13,
+      "start_map": [
+        4.45,
+        0.47,
+        1.11
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 11.8,
+      "err_x_m": -0.009,
+      "err_y_m": 0.0011,
+      "err_yaw_deg": 8.36,
+      "docked": false
+    },
+    {
+      "i": 14,
+      "start_map": [
+        3.65,
+        -1.29,
+        1.07
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.3,
+      "err_x_m": -0.0098,
+      "err_y_m": 0.0062,
+      "err_yaw_deg": 7.18,
+      "docked": false
+    },
+    {
+      "i": 15,
+      "start_map": [
+        3.48,
+        0.06,
+        0.79
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 14.6,
+      "err_x_m": -0.0105,
+      "err_y_m": 0.0041,
+      "err_yaw_deg": 7.23,
+      "docked": false
+    },
+    {
+      "i": 16,
+      "start_map": [
+        4.59,
+        1.11,
+        0.58
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 18.3,
+      "err_x_m": -0.011,
+      "err_y_m": -0.0016,
+      "err_yaw_deg": 10.75,
+      "docked": false
+    },
+    {
+      "i": 17,
+      "start_map": [
+        3.55,
+        -1.85,
+        0.95
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 14.6,
+      "err_x_m": -0.0124,
+      "err_y_m": 0.0042,
+      "err_yaw_deg": 6.43,
+      "docked": false
+    },
+    {
+      "i": 18,
+      "start_map": [
+        4.8,
+        -1.45,
+        1.12
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.1,
+      "err_x_m": -0.0127,
+      "err_y_m": 0.0053,
+      "err_yaw_deg": 6.13,
+      "docked": false
+    },
+    {
+      "i": 19,
+      "start_map": [
+        3.73,
+        2.29,
+        -0.09
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 16.5,
+      "err_x_m": -0.0103,
+      "err_y_m": -0.0014,
+      "err_yaw_deg": 9.27,
+      "docked": false
+    }
+  ]
+}

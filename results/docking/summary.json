@@ -1,0 +1,106 @@
+{
+  "map_only_seed0": {
+    "label": "Map pose only (AMCL)",
+    "starts": "seed 0",
+    "n": 20,
+    "action_success": 19,
+    "within_position_tol": 0,
+    "within_full_tol": 0,
+    "x_m": {
+      "median_abs": 0.2683,
+      "p90_abs": 0.6591,
+      "mean": -0.319,
+      "sd": 0.2251
+    },
+    "y_m": {
+      "median_abs": 0.026,
+      "p90_abs": 0.0554,
+      "mean": 0.0119,
+      "sd": 0.0297
+    },
+    "yaw_deg": {
+      "median_abs": 1.995,
+      "p90_abs": 2.62,
+      "mean": 0.6375,
+      "sd": 2.0045
+    }
+  },
+  "apriltag_seed0": {
+    "label": "AprilTag, calibrated at 0.7 m",
+    "starts": "seed 0",
+    "n": 20,
+    "action_success": 20,
+    "within_position_tol": 0,
+    "within_full_tol": 0,
+    "x_m": {
+      "median_abs": 0.0281,
+      "p90_abs": 0.0313,
+      "mean": -0.0283,
+      "sd": 0.0029
+    },
+    "y_m": {
+      "median_abs": 0.0558,
+      "p90_abs": 0.0596,
+      "mean": -0.0556,
+      "sd": 0.0029
+    },
+    "yaw_deg": {
+      "median_abs": 5.58,
+      "p90_abs": 7.69,
+      "mean": 5.691,
+      "sd": 1.828
+    }
+  },
+  "map_only_seed1": {
+    "label": "Map pose only (AMCL)",
+    "starts": "seed 1",
+    "n": 20,
+    "action_success": 20,
+    "within_position_tol": 1,
+    "within_full_tol": 1,
+    "x_m": {
+      "median_abs": 0.2566,
+      "p90_abs": 0.4815,
+      "mean": -0.2343,
+      "sd": 0.1684
+    },
+    "y_m": {
+      "median_abs": 0.0201,
+      "p90_abs": 0.0699,
+      "mean": 0.0243,
+      "sd": 0.0277
+    },
+    "yaw_deg": {
+      "median_abs": 1.55,
+      "p90_abs": 3.82,
+      "mean": 0.489,
+      "sd": 2.4449
+    }
+  },
+  "apriltag_corrected_seed1": {
+    "label": "AprilTag, + position bias correction (fitted on seed 0)",
+    "starts": "seed 1",
+    "n": 20,
+    "action_success": 20,
+    "within_position_tol": 20,
+    "within_full_tol": 0,
+    "x_m": {
+      "median_abs": 0.0105,
+      "p90_abs": 0.0127,
+      "mean": -0.0106,
+      "sd": 0.0019
+    },
+    "y_m": {
+      "median_abs": 0.003,
+      "p90_abs": 0.0062,
+      "mean": 0.0009,
+      "sd": 0.0042
+    },
+    "yaw_deg": {
+      "median_abs": 7.625,
+      "p90_abs": 10.75,
+      "mean": 8.37,
+      "sd": 2.4303
+    }
+  }
+}

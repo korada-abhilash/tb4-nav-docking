@@ -18,10 +18,21 @@ tag_in_dock:
   - -15.35
   - 1.57
 docking_server:
-  external_detection_translation_x: -0.3613
-  external_detection_translation_y: -0.0002
+  external_detection_translation_x: -0.333
+  external_detection_translation_y: 0.0554
   external_detection_rotation_roll: 2.9705
   external_detection_rotation_pitch: -1.4461
   external_detection_rotation_yaw: 0.1693
 note: Calibrated at 0.7 m (staging distance). A calibration at the docked pose made
   docking fail (detection lost on approach), so the staging-distance values are kept.
+docking_server_uncorrected:
+  external_detection_translation_x: -0.3613
+  external_detection_translation_y: -0.0002
+  external_detection_rotation_roll: 2.9705
+  external_detection_rotation_pitch: -1.4461
+  external_detection_rotation_yaw: 0.1693
+bias_correction:
+  fitted_on: /ws/results/docking/dock_trials_apriltag_seed0.json
+  mean_err_x_m: -0.0283
+  mean_err_y_m: -0.0556
+  mean_err_yaw_deg: 5.69

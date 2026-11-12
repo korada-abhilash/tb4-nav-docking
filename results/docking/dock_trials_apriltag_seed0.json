@@ -1,0 +1,357 @@
+{
+  "label": "apriltag",
+  "seed": 0,
+  "n": 20,
+  "docked": 0,
+  "action_success": 20,
+  "median_abs_err_y_cm": 5.58,
+  "median_abs_err_x_cm": 2.81,
+  "median_abs_err_yaw_deg": 5.58,
+  "tolerance": {
+    "x_m": 0.03,
+    "y_m": 0.02,
+    "yaw_deg": 3.0000000000000004
+  },
+  "trials": [
+    {
+      "i": 0,
+      "start_map": [
+        3.54,
+        -1.29,
+        -1.44
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.8,
+      "err_x_m": -0.0266,
+      "err_y_m": -0.051,
+      "err_yaw_deg": 2.85,
+      "docked": false
+    },
+    {
+      "i": 1,
+      "start_map": [
+        4.79,
+        0.94,
+        1.3
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 14.0,
+      "err_x_m": -0.0276,
+      "err_y_m": -0.0564,
+      "err_yaw_deg": 4.82,
+      "docked": false
+    },
+    {
+      "i": 2,
+      "start_map": [
+        3.59,
+        1.25,
+        0.14
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 12.0,
+      "err_x_m": -0.0264,
+      "err_y_m": -0.0529,
+      "err_yaw_deg": 5.19,
+      "docked": false
+    },
+    {
+      "i": 3,
+      "start_map": [
+        3.34,
+        2.07,
+        -1.56
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 15.0,
+      "err_x_m": -0.0307,
+      "err_y_m": -0.0555,
+      "err_yaw_deg": 6.31,
+      "docked": false
+    },
+    {
+      "i": 4,
+      "start_map": [
+        4.2,
+        -2.66,
+        0.72
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 14.6,
+      "err_x_m": -0.03,
+      "err_y_m": -0.0519,
+      "err_yaw_deg": 4.24,
+      "docked": false
+    },
+    {
+      "i": 5,
+      "start_map": [
+        4.66,
+        1.28,
+        0.13
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.0,
+      "err_x_m": -0.028,
+      "err_y_m": -0.0582,
+      "err_yaw_deg": 7.69,
+      "docked": false
+    },
+    {
+      "i": 6,
+      "start_map": [
+        3.93,
+        -0.34,
+        -1.48
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 15.6,
+      "err_x_m": -0.0267,
+      "err_y_m": -0.0573,
+      "err_yaw_deg": 7.46,
+      "docked": false
+    },
+    {
+      "i": 7,
+      "start_map": [
+        4.36,
+        0.61,
+        0.46
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.1,
+      "err_x_m": -0.0322,
+      "err_y_m": -0.0596,
+      "err_yaw_deg": 7.16,
+      "docked": false
+    },
+    {
+      "i": 8,
+      "start_map": [
+        3.35,
+        -0.66,
+        1.56
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 12.7,
+      "err_x_m": -0.0282,
+      "err_y_m": -0.0555,
+      "err_yaw_deg": 5.75,
+      "docked": false
+    },
+    {
+      "i": 9,
+      "start_map": [
+        2.8,
+        1.31,
+        0.47
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 13.5,
+      "err_x_m": -0.0317,
+      "err_y_m": -0.0539,
+      "err_yaw_deg": 4.22,
+      "docked": false
+    },
+    {
+      "i": 10,
+      "start_map": [
+        3.2,
+        -0.66,
+        -1.15
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 14.3,
+      "err_x_m": -0.0301,
+      "err_y_m": -0.057,
+      "err_yaw_deg": 6.44,
+      "docked": false
+    },
+    {
+      "i": 11,
+      "start_map": [
+        3.06,
+        0.16,
+        -0.6
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 12.3,
+      "err_x_m": -0.0313,
+      "err_y_m": -0.0547,
+      "err_yaw_deg": 4.93,
+      "docked": false
+    },
+    {
+      "i": 12,
+      "start_map": [
+        4.31,
+        1.8,
+        1.36
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 16.1,
+      "err_x_m": -0.029,
+      "err_y_m": -0.0567,
+      "err_yaw_deg": 6.45,
+      "docked": false
+    },
+    {
+      "i": 13,
+      "start_map": [
+        3.81,
+        0.33,
+        -0.56
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 11.5,
+      "err_x_m": -0.0267,
+      "err_y_m": -0.0562,
+      "err_yaw_deg": 4.88,
+      "docked": false
+    },
+    {
+      "i": 14,
+      "start_map": [
+        3.46,
+        -0.9,
+        -0.34
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 16.5,
+      "err_x_m": -0.0266,
+      "err_y_m": -0.0602,
+      "err_yaw_deg": 8.74,
+      "docked": false
+    },
+    {
+      "i": 15,
+      "start_map": [
+        3.24,
+        -1.77,
+        0.39
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 19.8,
+      "err_x_m": -0.0271,
+      "err_y_m": -0.0612,
+      "err_yaw_deg": 9.58,
+      "docked": false
+    },
+    {
+      "i": 16,
+      "start_map": [
+        4.72,
+        1.07,
+        0.9
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 18.4,
+      "err_x_m": -0.0311,
+      "err_y_m": -0.0563,
+      "err_yaw_deg": 5.67,
+      "docked": false
+    },
+    {
+      "i": 17,
+      "start_map": [
+        4.61,
+        1.4,
+        -1.39
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 10.9,
+      "err_x_m": -0.0313,
+      "err_y_m": -0.0555,
+      "err_yaw_deg": 5.49,
+      "docked": false
+    },
+    {
+      "i": 18,
+      "start_map": [
+        4.38,
+        -1.45,
+        -0.16
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 14.1,
+      "err_x_m": -0.0248,
+      "err_y_m": -0.052,
+      "err_yaw_deg": 4.03,
+      "docked": false
+    },
+    {
+      "i": 19,
+      "start_map": [
+        3.39,
+        -1.65,
+        -1.41
+      ],
+      "start_reached": true,
+      "action_success": true,
+      "error_code": 0,
+      "num_retries": 0,
+      "dock_sim_s": 14.1,
+      "err_x_m": -0.0194,
+      "err_y_m": -0.0505,
+      "err_yaw_deg": 1.92,
+      "docked": false
+    }
+  ]
+}
