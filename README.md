@@ -55,8 +55,9 @@ Being precise about this matters, because the TurtleBot 4 packages already conta
 ## How it works, step by step
 
 **1. Simulation.** Nav2's minimal TurtleBot 4 simulation (`nav2_minimal_tb4_sim`, warehouse world) in Docker.
-The robot has a 2D lidar, an RGB-D camera (320×240) and wheel odometry. It runs at real-time speed on a
-laptop CPU with an Intel iGPU, using about 3 GB of RAM.
+The robot has a 2D lidar, an RGB-D camera (320×240) and wheel odometry. On a laptop (Intel i7-1355U, iGPU)
+the simulation alone runs at real-time speed (real-time factor 1.0) in about 3 GB of RAM, and at about 0.85×
+with Nav2 running.
 
 **2. Mapping** ([`scripts/run_mapping.sh`](scripts/run_mapping.sh)). RTAB-Map builds the map from wheel
 odometry (motion), the lidar (occupancy grid, scan matching) and the RGB-D camera (visual loop closures).
@@ -96,12 +97,16 @@ docker build -t tb4-nav-docking:jazzy docker/
 scripts/run_mapping.sh                 # sim + RTAB-Map + Nav2 tour; map -> outputs/maps/
 scripts/exec.sh "python3 scripts/compare_map.py outputs/maps/warehouse_rtabmap.yaml"   # (sim running)
 scripts/run_navigation.sh 20 0         # 20 goals on results/maps/warehouse_rtabmap.yaml
-scripts/run_all_docking.sh 20 0        # AprilTag and map-only docking trials (seed 0)
+scripts/run_all_docking.sh 20 1        # AprilTag and map-only docking trials on start poses seed 1
 python3 scripts/docking_report.py      # results/docking/table.md
 ```
 
+`config/tag_calibration.yaml` holds the bias-corrected calibration (the seed-1 AprilTag row); the first
+calibration (the seed-0 AprilTag row) is kept in it as `docking_server_uncorrected`.
 `scripts/up.sh` starts the simulation container and `scripts/exec.sh "<cmd>"` runs a command in it.
-`config/sim.env` holds the world, spawn pose and dock pose.
+`config/sim.env` holds the world, spawn pose and dock pose. Debugging and validation helpers:
+`rtf.py` (real-time factor), `scan_probe.py`, `depth_probe.py`, `costmap_probe.py`, and
+`check_dock_estimate.py` / `probe_estimate_vs_range.py` (dock estimate vs ground truth).
 
 ## Problems hit along the way
 
