@@ -100,7 +100,7 @@ scripts/exec.sh "python3 scripts/compare_map.py outputs/maps/warehouse_rtabmap.y
 scripts/run_navigation.sh 20 0         # 20 goals on results/maps/warehouse_rtabmap.yaml
 scripts/run_all_docking.sh 20 1        # AprilTag and map-only docking trials on start poses seed 1
 python3 scripts/docking_report.py      # results/docking/table.md
-scripts/exec.sh "python3 scripts/make_map_figure.py"   # docs/map_figure.png (any running container)
+scripts/exec.sh "python3 scripts/make_map_figure.py"   # docs/map_figure.png (needs scripts/up.sh running)
 ```
 
 `config/tag_calibration.yaml` holds the bias-corrected calibration (the seed-1 AprilTag row); the first
