@@ -1,0 +1,8 @@
+{
+  "our_wall_cells": 11228,
+  "wall_err_median_m": 0.03,
+  "wall_err_p95_m": 0.21,
+  "wall_within_10cm": 0.849,
+  "floor_coverage": 0.77,
+  "reachable_floor_m2": 1279.5
+}

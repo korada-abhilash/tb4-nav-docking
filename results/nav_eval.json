@@ -1,0 +1,230 @@
+{
+  "map": "results/maps/warehouse_rtabmap.yaml",
+  "seed": 0,
+  "goals": 20,
+  "succeeded": 20,
+  "mean_sim_s": 50.5,
+  "total_driven_m": 443.0,
+  "log": [
+    {
+      "i": 0,
+      "goal": [
+        35.67,
+        -8.77,
+        -1.45
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 90.3,
+      "driven_m": 41.8
+    },
+    {
+      "i": 1,
+      "goal": [
+        24.67,
+        -2.82,
+        -2.88
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 39.2,
+      "driven_m": 17.42
+    },
+    {
+      "i": 2,
+      "goal": [
+        23.07,
+        14.08,
+        1.97
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 38.6,
+      "driven_m": 17.11
+    },
+    {
+      "i": 3,
+      "goal": [
+        45.27,
+        -3.27,
+        0.67
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 77.1,
+      "driven_m": 35.18
+    },
+    {
+      "i": 4,
+      "goal": [
+        37.52,
+        -10.12,
+        1.44
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 32.3,
+      "driven_m": 10.46
+    },
+    {
+      "i": 5,
+      "goal": [
+        36.22,
+        -2.62,
+        2.73
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 17.2,
+      "driven_m": 7.88
+    },
+    {
+      "i": 6,
+      "goal": [
+        22.87,
+        -0.57,
+        1.98
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 55.2,
+      "driven_m": 25.12
+    },
+    {
+      "i": 7,
+      "goal": [
+        27.02,
+        -4.12,
+        2.25
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 19.5,
+      "driven_m": 5.73
+    },
+    {
+      "i": 8,
+      "goal": [
+        14.82,
+        16.23,
+        -2.93
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 50.2,
+      "driven_m": 24.02
+    },
+    {
+      "i": 9,
+      "goal": [
+        18.77,
+        -7.07,
+        -2.04
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 55.4,
+      "driven_m": 24.9
+    },
+    {
+      "i": 10,
+      "goal": [
+        34.52,
+        -6.37,
+        2.28
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 54.5,
+      "driven_m": 23.74
+    },
+    {
+      "i": 11,
+      "goal": [
+        2.67,
+        15.63,
+        -1.26
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 97.6,
+      "driven_m": 46.3
+    },
+    {
+      "i": 12,
+      "goal": [
+        27.97,
+        -0.52,
+        -0.49
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 69.2,
+      "driven_m": 32.75
+    },
+    {
+      "i": 13,
+      "goal": [
+        35.62,
+        2.53,
+        -2.36
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 46.4,
+      "driven_m": 19.57
+    },
+    {
+      "i": 14,
+      "goal": [
+        22.52,
+        15.48,
+        1.07
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 44.8,
+      "driven_m": 19.75
+    },
+    {
+      "i": 15,
+      "goal": [
+        6.97,
+        -0.22,
+        0.72
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 61.6,
+      "driven_m": 25.98
+    },
+    {
+      "i": 16,
+      "goal": [
+        22.77,
+        -3.22,
+        -0.73
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 35.4,
+      "driven_m": 16.59
+    },
+    {
+      "i": 17,
+      "goal": [
+        9.62,
+        1.18,
+        3.02
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 42.0,
+      "driven_m": 14.39
+    },
+    {
+      "i": 18,
+      "goal": [
+        9.32,
+        -11.97,
+        1.17
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 56.6,
+      "driven_m": 23.6
+    },
+    {
+      "i": 19,
+      "goal": [
+        1.87,
+        -10.97,
+        1.18
+      ],
+      "result": "SUCCEEDED",
+      "sim_s": 26.4,
+      "driven_m": 10.68
+    }
+  ]
+}

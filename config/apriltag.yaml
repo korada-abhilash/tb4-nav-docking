@@ -1,0 +1,18 @@
+# apriltag_ros (christianrauch) detector for the dock tag. Tag size = black square edge (m).
+/**:
+  ros__parameters:
+    image_transport: raw
+    family: 36h11
+    size: 0.20
+    max_hamming: 0
+    pose_estimation_method: "pnp"
+    detector:
+      threads: 2
+      decimate: 1.0     # 320x240 image: keep full resolution for small tags
+      blur: 0.0
+      refine: true
+      sharpening: 0.25
+    tag:
+      ids: [0]
+      frames: [dock_tag]
+      sizes: [0.20]

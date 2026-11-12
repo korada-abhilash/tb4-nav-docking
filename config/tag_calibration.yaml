@@ -1,0 +1,27 @@
+tag_in_dock:
+  xyz:
+  - 0.3317
+  - -0.0011
+  - 0.2466
+  quat_xyzw:
+  - -0.70428
+  - -0.01694
+  - -0.70952
+  - 0.01681
+  translation_std_m:
+  - 0.0
+  - 0.0
+  - 0.0
+  n: 40
+  robot_gt_world:
+  - 2.1247
+  - -15.35
+  - 1.57
+docking_server:
+  external_detection_translation_x: -0.3613
+  external_detection_translation_y: -0.0002
+  external_detection_rotation_roll: 2.9705
+  external_detection_rotation_pitch: -1.4461
+  external_detection_rotation_yaw: 0.1693
+note: Calibrated at 0.7 m (staging distance). A calibration at the docked pose made
+  docking fail (detection lost on approach), so the staging-distance values are kept.

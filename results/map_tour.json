@@ -1,0 +1,448 @@
+{
+  "waypoints": 63,
+  "succeeded": 60,
+  "total_sim_s": 1225.8,
+  "goals": [
+    {
+      "i": 0,
+      "x": 0.62,
+      "y": -0.72,
+      "result": "SUCCEEDED",
+      "sim_s": 9.3
+    },
+    {
+      "i": 1,
+      "x": 4.61,
+      "y": -0.72,
+      "result": "SUCCEEDED",
+      "sim_s": 10.5
+    },
+    {
+      "i": 2,
+      "x": 8.6,
+      "y": -0.71,
+      "result": "SUCCEEDED",
+      "sim_s": 10.5
+    },
+    {
+      "i": 3,
+      "x": 12.59,
+      "y": -0.71,
+      "result": "SUCCEEDED",
+      "sim_s": 9.2
+    },
+    {
+      "i": 4,
+      "x": 16.58,
+      "y": -0.71,
+      "result": "SUCCEEDED",
+      "sim_s": 8.5
+    },
+    {
+      "i": 5,
+      "x": 20.57,
+      "y": -0.7,
+      "result": "SUCCEEDED",
+      "sim_s": 8.8
+    },
+    {
+      "i": 6,
+      "x": 24.56,
+      "y": -0.7,
+      "result": "SUCCEEDED",
+      "sim_s": 9.0
+    },
+    {
+      "i": 7,
+      "x": 24.56,
+      "y": 3.29,
+      "result": "SUCCEEDED",
+      "sim_s": 11.3
+    },
+    {
+      "i": 8,
+      "x": 20.57,
+      "y": 3.29,
+      "result": "SUCCEEDED",
+      "sim_s": 11.5
+    },
+    {
+      "i": 9,
+      "x": 20.56,
+      "y": 7.28,
+      "result": "SUCCEEDED",
+      "sim_s": 11.3
+    },
+    {
+      "i": 10,
+      "x": 24.55,
+      "y": 7.28,
+      "result": "SUCCEEDED",
+      "sim_s": 11.4
+    },
+    {
+      "i": 11,
+      "x": 24.55,
+      "y": 11.27,
+      "result": "SUCCEEDED",
+      "sim_s": 11.4
+    },
+    {
+      "i": 12,
+      "x": 20.56,
+      "y": 11.27,
+      "result": "SUCCEEDED",
+      "sim_s": 11.3
+    },
+    {
+      "i": 13,
+      "x": 20.56,
+      "y": 15.26,
+      "result": "SUCCEEDED",
+      "sim_s": 11.6
+    },
+    {
+      "i": 14,
+      "x": 24.55,
+      "y": 15.26,
+      "result": "SUCCEEDED",
+      "sim_s": 11.5
+    },
+    {
+      "i": 15,
+      "x": 28.54,
+      "y": 11.27,
+      "result": "SUCCEEDED",
+      "sim_s": 20.3
+    },
+    {
+      "i": 16,
+      "x": 28.54,
+      "y": 7.28,
+      "result": "SUCCEEDED",
+      "sim_s": 12.0
+    },
+    {
+      "i": 17,
+      "x": 28.55,
+      "y": 3.29,
+      "result": "SUCCEEDED",
+      "sim_s": 8.7
+    },
+    {
+      "i": 18,
+      "x": 28.55,
+      "y": -0.7,
+      "result": "SUCCEEDED",
+      "sim_s": 9.0
+    },
+    {
+      "i": 19,
+      "x": 32.54,
+      "y": -0.69,
+      "result": "SUCCEEDED",
+      "sim_s": 69.4
+    },
+    {
+      "i": 20,
+      "x": 36.53,
+      "y": -0.69,
+      "result": "SUCCEEDED",
+      "sim_s": 8.6
+    },
+    {
+      "i": 21,
+      "x": 36.53,
+      "y": 3.3,
+      "result": "SUCCEEDED",
+      "sim_s": 11.4
+    },
+    {
+      "i": 22,
+      "x": 32.54,
+      "y": 3.3,
+      "result": "SUCCEEDED",
+      "sim_s": 11.6
+    },
+    {
+      "i": 23,
+      "x": 32.53,
+      "y": 7.29,
+      "result": "SUCCEEDED",
+      "sim_s": 11.5
+    },
+    {
+      "i": 24,
+      "x": 36.52,
+      "y": 7.29,
+      "result": "SUCCEEDED",
+      "sim_s": 11.2
+    },
+    {
+      "i": 25,
+      "x": 36.52,
+      "y": 11.28,
+      "result": "SUCCEEDED",
+      "sim_s": 13.0
+    },
+    {
+      "i": 26,
+      "x": 32.53,
+      "y": 11.28,
+      "result": "SUCCEEDED",
+      "sim_s": 11.1
+    },
+    {
+      "i": 27,
+      "x": 32.53,
+      "y": 15.27,
+      "result": "SUCCEEDED",
+      "sim_s": 120.2
+    },
+    {
+      "i": 28,
+      "x": 36.52,
+      "y": 15.27,
+      "result": "FAILED",
+      "sim_s": 0.0
+    },
+    {
+      "i": 29,
+      "x": 40.51,
+      "y": 15.27,
+      "result": "FAILED",
+      "sim_s": 120.1
+    },
+    {
+      "i": 30,
+      "x": 44.5,
+      "y": 15.28,
+      "result": "FAILED",
+      "sim_s": 0.0
+    },
+    {
+      "i": 31,
+      "x": 44.5,
+      "y": 7.3,
+      "result": "SUCCEEDED",
+      "sim_s": 84.8
+    },
+    {
+      "i": 32,
+      "x": 44.51,
+      "y": 3.31,
+      "result": "SUCCEEDED",
+      "sim_s": 10.1
+    },
+    {
+      "i": 33,
+      "x": 44.51,
+      "y": -0.68,
+      "result": "SUCCEEDED",
+      "sim_s": 8.9
+    },
+    {
+      "i": 34,
+      "x": 44.51,
+      "y": -4.67,
+      "result": "SUCCEEDED",
+      "sim_s": 9.0
+    },
+    {
+      "i": 35,
+      "x": 44.52,
+      "y": -8.66,
+      "result": "SUCCEEDED",
+      "sim_s": 8.8
+    },
+    {
+      "i": 36,
+      "x": 40.53,
+      "y": -8.67,
+      "result": "SUCCEEDED",
+      "sim_s": 11.6
+    },
+    {
+      "i": 37,
+      "x": 36.54,
+      "y": -8.67,
+      "result": "SUCCEEDED",
+      "sim_s": 9.1
+    },
+    {
+      "i": 38,
+      "x": 32.55,
+      "y": -8.67,
+      "result": "SUCCEEDED",
+      "sim_s": 8.7
+    },
+    {
+      "i": 39,
+      "x": 32.54,
+      "y": -4.68,
+      "result": "SUCCEEDED",
+      "sim_s": 11.1
+    },
+    {
+      "i": 40,
+      "x": 28.56,
+      "y": -8.68,
+      "result": "SUCCEEDED",
+      "sim_s": 50.3
+    },
+    {
+      "i": 41,
+      "x": 24.57,
+      "y": -8.68,
+      "result": "SUCCEEDED",
+      "sim_s": 35.8
+    },
+    {
+      "i": 42,
+      "x": 20.58,
+      "y": -8.68,
+      "result": "SUCCEEDED",
+      "sim_s": 8.6
+    },
+    {
+      "i": 43,
+      "x": 16.59,
+      "y": -8.69,
+      "result": "SUCCEEDED",
+      "sim_s": 9.9
+    },
+    {
+      "i": 44,
+      "x": 12.6,
+      "y": -8.69,
+      "result": "SUCCEEDED",
+      "sim_s": 9.3
+    },
+    {
+      "i": 45,
+      "x": 8.61,
+      "y": -8.69,
+      "result": "SUCCEEDED",
+      "sim_s": 8.9
+    },
+    {
+      "i": 46,
+      "x": 4.62,
+      "y": -8.7,
+      "result": "SUCCEEDED",
+      "sim_s": 10.3
+    },
+    {
+      "i": 47,
+      "x": -3.37,
+      "y": -4.71,
+      "result": "SUCCEEDED",
+      "sim_s": 26.6
+    },
+    {
+      "i": 48,
+      "x": -3.37,
+      "y": -0.72,
+      "result": "SUCCEEDED",
+      "sim_s": 12.2
+    },
+    {
+      "i": 49,
+      "x": -3.37,
+      "y": 3.27,
+      "result": "SUCCEEDED",
+      "sim_s": 9.1
+    },
+    {
+      "i": 50,
+      "x": -3.38,
+      "y": 7.26,
+      "result": "SUCCEEDED",
+      "sim_s": 9.0
+    },
+    {
+      "i": 51,
+      "x": 0.61,
+      "y": 7.26,
+      "result": "SUCCEEDED",
+      "sim_s": 11.4
+    },
+    {
+      "i": 52,
+      "x": 4.6,
+      "y": 7.26,
+      "result": "SUCCEEDED",
+      "sim_s": 10.0
+    },
+    {
+      "i": 53,
+      "x": 8.59,
+      "y": 7.27,
+      "result": "SUCCEEDED",
+      "sim_s": 12.7
+    },
+    {
+      "i": 54,
+      "x": 12.58,
+      "y": 7.27,
+      "result": "SUCCEEDED",
+      "sim_s": 9.3
+    },
+    {
+      "i": 55,
+      "x": 16.57,
+      "y": 7.27,
+      "result": "SUCCEEDED",
+      "sim_s": 8.7
+    },
+    {
+      "i": 56,
+      "x": 16.57,
+      "y": 15.25,
+      "result": "SUCCEEDED",
+      "sim_s": 22.5
+    },
+    {
+      "i": 57,
+      "x": 12.58,
+      "y": 15.25,
+      "result": "SUCCEEDED",
+      "sim_s": 11.3
+    },
+    {
+      "i": 58,
+      "x": 8.59,
+      "y": 15.25,
+      "result": "SUCCEEDED",
+      "sim_s": 8.8
+    },
+    {
+      "i": 59,
+      "x": 4.6,
+      "y": 15.24,
+      "result": "SUCCEEDED",
+      "sim_s": 8.9
+    },
+    {
+      "i": 60,
+      "x": 0.61,
+      "y": 15.24,
+      "result": "SUCCEEDED",
+      "sim_s": 8.9
+    },
+    {
+      "i": 61,
+      "x": 24.56,
+      "y": -4.69,
+      "result": "SUCCEEDED",
+      "sim_s": 84.6
+    },
+    {
+      "i": 62,
+      "x": 0.0,
+      "y": 0.0,
+      "result": "SUCCEEDED",
+      "sim_s": 81.0
+    }
+  ]
+}

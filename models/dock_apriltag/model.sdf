@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- Charging dock with an AprilTag (tag36h11 id 0, 0.20 m black square) facing the robot.
+     Model frame = where the robot's base_link should be when docked, x pointing forward into the dock.
+     Tag centre is at the camera's height (0.244 m) so it is centred in view during the final approach.
+     The contact plate is visual-only: docking accuracy is judged from ground-truth poses, and a collision
+     body would let physics push back against the docking controller. -->
+<sdf version="1.9">
+  <model name="dock_apriltag">
+    <static>true</static>
+    <link name="panel">
+      <pose>0.33 0 0.244 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>0.02 0.30 0.30</size></box></geometry>
+      </collision>
+      <visual name="frame">
+        <pose>0.006 0 0 0 0 0</pose>
+        <geometry><box><size>0.012 0.30 0.30</size></box></geometry>
+        <material><diffuse>0.15 0.15 0.15 1</diffuse><ambient>0.15 0.15 0.15 1</ambient></material>
+      </visual>
+      <!-- tag face: a plane whose normal points back at the robot (-x); 0.25 m incl. white border -->
+      <visual name="tag">
+        <pose>-0.001 0 0 0 0 0</pose>
+        <geometry><plane><normal>-1 0 0</normal><size>0.25 0.25</size></plane></geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse><ambient>1 1 1 1</ambient>
+          <pbr><metal><albedo_map>/ws/models/dock_apriltag/materials/textures/tag36h11_0.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+    </link>
+    <link name="base">
+      <pose>0.27 0 0.02 0 0 0</pose>
+      <visual name="plate">
+        <geometry><box><size>0.14 0.34 0.04</size></box></geometry>
+        <material><diffuse>0.1 0.1 0.12 1</diffuse><ambient>0.1 0.1 0.12 1</ambient></material>
+      </visual>
+      <visual name="contacts">
+        <pose>-0.07 0 0.03 0 0 0</pose>
+        <geometry><box><size>0.01 0.12 0.02</size></box></geometry>
+        <material><diffuse>0.8 0.6 0.2 1</diffuse><ambient>0.8 0.6 0.2 1</ambient></material>
+      </visual>
+    </link>
+  </model>
+</sdf>
