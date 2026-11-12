@@ -1,0 +1,7 @@
+build/
+install/
+log/
+outputs/
+*.db
+*.mp4
+__pycache__/
